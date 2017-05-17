@@ -1,0 +1,319 @@
+body section{
+	padding: 75px 0;
+}
+/*====================
+======NAVIGATION CSS=====
+======================*/
+
+.navbar {
+  background:#fff;
+  border-radius: 0;
+  border-bottom: 0;
+  padding-bottom: px;
+  opacity: 0.9;
+  padding-right:85px;
+}
+
+.navbar-toggle{
+  margin-top: 20px;
+  background-color: #333;
+}
+
+
+
+.navbar-nav.navbar-right li,
+.navbar-nav.navbar-left li  {
+	padding: 0 2px;
+}
+
+.navbar-nav.navbar-left {
+	margin-top:28px;
+	margin-bottom:-58px;
+}
+
+.navbar-nav.navbar-right li a,
+.navbar-nav.navbar-left li a {
+	color: #43484E;
+	font-size: 14px;
+	padding: 0;
+	text-transform: uppercase;
+	padding: 6px 15px;
+	padding-bottom:8px;
+}
+.navbar-nav.navbar-left li a {
+	padding-bottom:13px;
+}
+  
+.navbar-nav.navbar-right li a:focus, 
+.navbar-nav.navbar-right li a:hover{
+	color: #fff;
+	background-color:#4676b8;
+	transition: all 1s;
+}
+.navbar-nav.navbar-left li a:focus,
+.navbar-nav.navbar-left .dropdown-toggle:focus, 
+.navbar-nav.navbar-left li a:hover{
+	color: #fff;
+	border-bottom:4px solid #4676b8;
+	font-weight:bold;
+	color:#000000;
+}
+.navbar-fixed-top{
+	margin-top:0px;
+	padding-top:12px;
+	border-top: 1px solid #0c71fd;
+	color:#000000;
+	
+}
+
+
+/*====================
+======First Part=====
+======================*/
+#first{
+	padding-bottom:75px;
+	padding-top:125px;
+	background-color:#323232;
+	color:#ffffff;
+}
+.col-sm-6 .btn-primary {
+	text-transform: uppercase;
+	border: 1px solid #0c71fd;
+	color: #686868;
+	background-color: rgba(255, 255, 255, 0);
+	border-color: #0c71fd;
+	width:30%;
+	border-radius:0;
+	margin-bottom:70px;
+}
+.col-sm-6 .btn-primary:hover {
+	background-color:#4676b8;
+	color:#fff;
+	border-color:#0c71fd;
+	transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-webkit-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+}
+#first h1 {
+	margin:0;
+	margin-bottom:25px;
+}
+
+/*====================
+======Overview=====
+======================*/
+
+#overview{
+	background-color:#e5e5e5;
+	
+}
+.overview h2{
+	font-size:35px;
+	text-transform:uppercase;
+	font-weight: bold;
+	padding-bottom:30px;
+	
+}
+.overview p{
+	padding-bottom:40px;
+	font-size:16px;
+	list-style: none;
+	text-align:justify;
+}
+.overview .row{
+	padding-bottom:40px;
+	padding-top:30px;
+	font-size:16px;
+	list-style: none;
+	text-align:justify;
+	border-top: 2px solid #cccccc;
+}
+.container{
+	padding:35px;
+	font-size:15px;
+} 
+
+/*====================
+======Course Content=====
+======================*/
+
+#course_content{
+	padding:80px 170px;
+	background-color:#e5e5e5;
+}
+.panel-default .panel-heading{
+	height:70px;
+	border-radius:0;
+	background-color:#ffffff;
+	
+}
+.panel-default .panel-heading h5{
+	font-size:16px;
+	font-weight: bold;
+}
+.list-group-item a{
+	text-decoration:none;
+}
+ 
+.list-group-item:hover,
+.list-group-item:focus{
+	background-color:#e5e5e5;
+	cursor:pointer;
+}
+
+/*====================
+======Q&a=====
+======================*/
+#q_a{
+	 padding:80px 150px;
+	background-color:#e5e5e5;
+}
+.q_a .container .jumbotron{
+	padding:50px 80px;
+	background-color:#ffffff;
+	border-radius:0px;
+	box-shadow:none;
+}
+.q_a .container .jumbotron .form-inline .form-control{
+	border-radius:0px;
+	box-shadow:none;
+	height:6%;
+}
+.q_a .container .jumbotron .form-inline .btn.btn-danger{
+	text-transform: uppercase;
+	border: 1px solid #0c71fd;
+	color: #686868;
+	background-color: rgba(255, 255, 255, 0);
+	border-color: #0c71fd;
+	border-radius:0;
+}	
+
+.q_a .container .jumbotron .form-inline .btn.btn-danger:hover{
+	background-color:#4676b8;
+	color:#fff;
+	border-color:#0c71fd;
+	transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-webkit-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+}
+.q_a .container .panel-default .panel-heading span{
+	cursor:pointer;
+}
+.q_a .container .panel.panel-default .panel-heading a{
+	text-decoration: none;
+	color:#7f7f7f;
+}
+.q_a .container .panel.panel-default .panel-heading a h6{
+	font-size:18px;
+	font-weight:bold;
+	color:#191919;
+}
+.q_a .container .panel.panel-default .panel-heading h5{
+	font-size:15px;
+	
+}
+/*====================
+======Response=====
+======================*/
+#response{
+	padding:80px 150px;
+	background-color:#e5e5e5;
+}
+.response .container .jumbotron{
+	padding:50px 80px;
+	background-color:#ffffff;
+	border-radius:0px;
+	box-shadow:none;
+}
+.response .container .jumbotron .title h5{
+	font-size:18px;
+	font-weight:bold;
+}
+.response .container .jumbotron .title h6,
+.response .container .jumbotron .bodypart h6{
+	font-size:15px;
+	color:#0c71fd;
+}
+.response .container .jumbotron .title h4,
+.response .container .jumbotron .bodypart h4{
+	font-size:15px;
+}
+.response .container .jumbotron .bodypart{
+	padding:10px;
+	padding-left:25px;
+}
+.response .container .jumbotron .bodypart span{
+	padding:10px;
+	
+}
+.response .container .jumbotron .bodypart .form-group .form-control{
+	resize:none;
+	border-radius:0px;
+	box-shadow:none;
+}
+.response .container .jumbotron .bodypart .form-group .btn.btn-primary{
+	text-transform: uppercase;
+	border: 1px solid #0c71fd;
+	color: #686868;
+	background-color: rgba(255, 255, 255, 0);
+	border-color: #0c71fd;
+	border-radius:0;	
+}
+.response .container .jumbotron .bodypart .form-group .btn.btn-primary:hover{
+	background-color:#4676b8;
+	color:#fff;
+	border-color:#0c71fd;
+	transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-webkit-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+}
+.response .container .backtoprevious {
+	padding-bottom:35px;
+	
+}
+.response .container .backtoprevious  a{
+	font-size:16px;
+	text-decoration:none;
+}
+/*====================
+======Video=====
+======================*/
+#video{
+	background-color:#000000;
+	padding:0px;
+	margin:0px
+}
+.video video
+{ 
+	width:100%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+
+
+/*====================
+======Footer CSS=====
+======================*/
+
+#footer {
+	background-color:#f6f6f6;
+	padding:25px 0;
+	color:#43484E;
+	font-size:16px;
+	position:relative;
+	margin-top:1px;
+}
+
+#footer p {
+	margin: 0
+}
+
+#footer a {
+	color:#0c71fd
+}
+
